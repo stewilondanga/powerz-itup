@@ -167,13 +167,13 @@ label:after {
   transition: all .1s linear;
 }
 
-/*#power:checked + label .icon-off {
-  background : transparent;
-  box-shadow : inset 0 0 5px 0 #777;
-  transition : all .1s linear;
+#power:checked+label .icon-off {
+  background: transparent;
+  box-shadow: inset 0 0 5px 0 #777;
+  transition: all .1s linear;
 }
 
-#power:checked + label .icon-off:after {
+/*#power:checked + label .icon-off:after {
   background : inherit;
   box-shadow : 0 0 5px 0 #777;
 }
