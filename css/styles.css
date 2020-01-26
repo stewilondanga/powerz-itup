@@ -50,13 +50,13 @@ label {
   transition: all .1s ease-in-out;
 }
 
-/*label:after , label:before {
-  display : block;
-  content : "";
+label:after, label:before {
+  display: block;
+  content: "";
   position: absolute;
 }
 
-label:before {
+/*label:before {
   width  : 150px;
   height : 150px;
   border-radius : 20px;
