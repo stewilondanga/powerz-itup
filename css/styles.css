@@ -131,26 +131,27 @@ label:after {
   z-index: 2;
 }
 
-/*.icon-off:before {
-  display  : block;
-  content  : '';
-  position : absolute;
-  top      : -5px;
-  left     : 0; right  : 0;
-  margin   : auto;
-  width    : 8px;
-  height   : 25px;
-  background : #d6f804;
-  box-shadow : inherit;
-  border-radius : 10px;
-  border-style  : solid;
-  border-width  : 0 3px 0;
-  border-color  : #EEE;
-  z-index    : 3;
-  transition : all .1s ease-in-out;
+.icon-off:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 8px;
+  height: 25px;
+  background: #d6f804;
+  box-shadow: inherit;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0 3px 0;
+  border-color: #EEE;
+  z-index: 3;
+  transition: all .1s ease-in-out;
 }
 
-#power:checked + label {
+/*#power:checked + label {
   background : -webkit-radial-gradient(center , ellipse cover, #ddd 0% , #EEE 80% , #efefef 100%);
   background :         radial-gradient(center , ellipse cover, #ddd 0% , #EEE 80% , #efefef 100%);
   background :         radial-gradient(center , ellipse cover, #ddd 0% , #EEE 80% , #efefef 100%);
