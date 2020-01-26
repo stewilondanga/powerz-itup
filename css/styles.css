@@ -17,14 +17,14 @@ body {
   height: 1.5em;
 }
 
-/*.container {
-  width  : 150px;
-  height : 130px;
-  padding-top : 20px;
-  margin : 50px auto ;
+.container {
+  width: 150px;
+  height: 130px;
+  padding-top: 20px;
+  margin: 50px auto;
 }
 
-#power {
+/*#power {
   position: absolute;
   left: -9999px;
 }
