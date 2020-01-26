@@ -173,12 +173,12 @@ label:after {
   transition: all .1s linear;
 }
 
-/*#power:checked + label .icon-off:after {
-  background : inherit;
-  box-shadow : 0 0 5px 0 #777;
+#power:checked+label .icon-off:after {
+  background: inherit;
+  box-shadow: 0 0 5px 0 #777;
 }
 
-#power:checked + label .icon-off:before {
+/*#power:checked + label .icon-off:before {
   background   : #ddd;
   border-color : #dfdfdf;
   box-shadow   : inherit;
