@@ -178,14 +178,14 @@ label:after {
   box-shadow: 0 0 5px 0 #777;
 }
 
-/*#power:checked + label .icon-off:before {
-  background   : #ddd;
-  border-color : #dfdfdf;
-  box-shadow   : inherit;
-  transition : all .1s linear;
+#power:checked+label .icon-off:before {
+  background: #ddd;
+  border-color: #dfdfdf;
+  box-shadow: inherit;
+  transition: all .1s linear;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
