@@ -151,16 +151,15 @@ label:after {
   transition: all .1s ease-in-out;
 }
 
-/*#power:checked + label {
-  background : -webkit-radial-gradient(center , ellipse cover, #ddd 0% , #EEE 80% , #efefef 100%);
-  background :         radial-gradient(center , ellipse cover, #ddd 0% , #EEE 80% , #efefef 100%);
-  background :         radial-gradient(center , ellipse cover, #ddd 0% , #EEE 80% , #efefef 100%);
-  box-shadow : inset 0 -5px 10px 0 #aaa , inset 0 5px 10px 0 #aaa , 0 0 0 1px #333;
-  transition : all .1s linear;
-
+#power:checked+label {
+  background: -webkit-radial-gradient(center, ellipse cover, #ddd 0%, #EEE 80%, #efefef 100%);
+  background: radial-gradient(center, ellipse cover, #ddd 0%, #EEE 80%, #efefef 100%);
+  background: radial-gradient(center, ellipse cover, #ddd 0%, #EEE 80%, #efefef 100%);
+  box-shadow: inset 0 -5px 10px 0 #aaa, inset 0 5px 10px 0 #aaa, 0 0 0 1px #333;
+  transition: all .1s linear;
 }
 
-#power:checked + label .light {
+/*#power:checked + label .light {
   background : -webkit-radial-gradient(center , ellipse cover, #fcc 0% , #f88 60% , #f00 100%);
   background :    -moz-radial-gradient(center , ellipse cover, #fcc 0% , #f88 60% , #f00 100%);
   background :         radial-gradient(center , ellipse cover, #fcc 0% , #f88 60% , #f00 100%);
