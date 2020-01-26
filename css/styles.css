@@ -24,12 +24,12 @@ body {
   margin: 50px auto;
 }
 
-/*#power {
+#power {
   position: absolute;
   left: -9999px;
 }
 
-label {
+/*label {
   display : block;
   width   : 100px;
   height  : 100px;
